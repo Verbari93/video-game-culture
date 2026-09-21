@@ -8,9 +8,17 @@ Welcome to the **Cross-Media Pop Culture Archive (CPCA)** — an open, collabora
 
 ## 🎮 Featured Games
 
-### Latest Additions
+<div class="game-cards">
 
-- **[Castlevania: Aria of Sorrow](games/castlevania-aria-of-sorrow)** (2003) - The masterpiece Metroidvania and the culmination of the GBA trilogy. Explore the soul system, gothic influences, and 20 years of legacy.
+### Castlevania: Aria of Sorrow
+![Castlevania: Aria of Sorrow](/video-game-culture/static/covers/castlevania-aria-of-sorrow.jpg)
+[View Full Entry →](games/castlevania-aria-of-sorrow)
+
+**2003** | Game Boy Advance | Metroidvania
+
+A masterpiece Metroidvania and the culmination of the GBA trilogy. Soma Cruz must explore Dracula's Castle, absorbing souls to gain abilities. Celebrated for minimalist art, jazz-fusion soundtrack, and innovations that prefigure modern roguelikes.
+
+</div>
 
 ## 📋 Browse by Category
 
@@ -25,9 +33,10 @@ Welcome to the **Cross-Media Pop Culture Archive (CPCA)** — an open, collabora
 Spotted something missing? Have a cross-media reference to add?
 
 1. **Fork the repository** on GitHub
-2. **Create a new card** following the template
-3. **Submit a pull request**
-4. **We'll review and merge**
+2. **Create a new card** following the [[TEMPLATE]] 
+3. **Add a cover image** at `static/covers/game-slug.jpg`
+4. **Submit a pull request**
+5. **We'll review and merge**
 
 All contributions are welcome — whether it's a book reference, interview link, or artistic inspiration.
 

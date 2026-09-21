@@ -4,6 +4,8 @@ description: >
   A masterpiece Metroidvania by Konami (2003). Soma Cruz explores Dracula's Castle,
   absorbing souls to gain abilities. Celebrated for minimalist art, jazz-fusion soundtrack,
   and innovations that prefigure modern roguelikes.
+cover: /video-game-culture/static/covers/castlevania-aria-of-sorrow.jpg
+releaseDate: 2003-05-06
 tags:
   - genre/action-rpg
   - genre/metroidvania

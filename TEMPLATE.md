@@ -3,6 +3,8 @@ title: "[Game Title]"
 description: >
   [1-2 sentence description of the game and its cultural significance.
   This is displayed in search results and listings.]
+cover: /video-game-culture/static/covers/[game-slug].jpg
+releaseDate: [YYYY-MM-DD]
 tags:
   # Genre (Required: at least 1)
   - genre/[primary-genre]
@@ -33,182 +35,22 @@ tags:
   - region/[japan|north-america|europe|worldwide]
 ---
 
-<style>
-.game-header {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 2rem;
-  margin-bottom: 2rem;
-  padding: 2rem;
-  background: linear-gradient(135deg, rgba(40, 75, 99, 0.1) 0%, rgba(132, 165, 157, 0.1) 100%);
-  border-radius: 12px;
-  border-left: 4px solid var(--secondary);
-}
+# [Game Title] ([YEAR])
 
-.game-meta-card {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  justify-content: space-between;
-}
+> **Developer:** [Studio Name]  
+> **Director:** [Director Name]  
+> **Original Platform:** [Platform]  
+> **Genre:** [Genre] | [Secondary Genre]  
+> **Rating:** [ESRB/PEGI Rating]
 
-.game-meta-item {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-}
-
-.meta-label {
-  font-size: 0.85rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  color: var(--secondary);
-}
-
-.meta-value {
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: var(--darkgray);
-}
-
-.game-info {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.game-title {
-  font-size: 2rem;
-  font-weight: 700;
-  margin: 0;
-  color: var(--dark);
-  line-height: 1.2;
-}
-
-.game-year {
-  font-size: 1.5rem;
-  color: var(--secondary);
-  font-weight: 600;
-}
-
-.game-rating {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background-color: var(--highlight);
-  border-radius: 6px;
-  font-weight: 600;
-  color: var(--dark);
-  width: fit-content;
-}
-
-.tag-section {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 1rem;
-}
-
-.tag {
-  display: inline-block;
-  padding: 0.4rem 0.8rem;
-  background-color: var(--tertiary);
-  color: white;
-  border-radius: 20px;
-  font-size: 0.85rem;
-  font-weight: 500;
-}
-
-.tag.platform {
-  background-color: var(--secondary);
-}
-
-.tag.genre {
-  background-color: #7b97aa;
-}
-
-.tag.company {
-  background-color: #84a59d;
-}
-
-.synopsis-box {
-  background-color: var(--highlight);
-  padding: 1.5rem;
-  border-radius: 8px;
-  margin: 1.5rem 0;
-  border-left: 4px solid var(--secondary);
-}
-
-.synopsis-box p {
-  margin: 0;
-  line-height: 1.6;
-  color: var(--darkgray);
-}
-
-@media (max-width: 768px) {
-  .game-header {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    padding: 1.5rem;
-  }
-  
-  .game-title {
-    font-size: 1.5rem;
-  }
-  
-  .game-year {
-    font-size: 1.2rem;
-  }
-}
-</style>
-
-<div class="game-header">
-  <div class="game-meta-card">
-    <div class="game-meta-item">
-      <span class="meta-label">Developer</span>
-      <span class="meta-value">[Developer Name]</span>
-    </div>
-    <div class="game-meta-item">
-      <span class="meta-label">Director</span>
-      <span class="meta-value">[Director Name]</span>
-    </div>
-    <div class="game-meta-item">
-      <span class="meta-label">Original Platform</span>
-      <span class="meta-value">[Platform]</span>
-    </div>
-    <div class="game-meta-item">
-      <span class="meta-label">Rating</span>
-      <div class="game-rating">[ESRB/PEGI Rating]</div>
-    </div>
-  </div>
-  
-  <div class="game-info">
-    <div>
-      <div class="game-year">[YEAR]</div>
-      <h1 class="game-title">[Game Title]</h1>
-    </div>
-    <div class="tag-section">
-      <span class="tag genre">[Genre 1]</span>
-      <span class="tag genre">[Genre 2]</span>
-      <span class="tag platform">[Platform 1]</span>
-      <span class="tag platform">[Platform 2]</span>
-      <span class="tag company">[Company]</span>
-    </div>
-  </div>
-</div>
-
-<div class="synopsis-box">
-
-[Brief description of the game and its cultural significance, with relevant links]
-
-</div>
+> [!note] 📌 Synopsis
+> [1-3 sentence summary of the game and its cultural significance. This should be a compelling overview.]
 
 ---
 
 ## 📌 Synopsis
 
-[Brief description of the game and its cultural significance]
-
+[Expanded description of the game. Context about the series, gameplay mechanics, narrative themes, and why it matters culturally.]
 
 ## 📖 Books, Essays & Novels
 
@@ -216,16 +58,16 @@ tags:
 <summary><b>📚 Novels and Tie-In Media</b></summary>
 
 * **Title:** Author
-* **Description:** Notes on how the book relates to the game
+  * Description of how the book relates to the game
 
 </details>
 
 <details open>
 <summary><b>✍️ Critical & Analytical Essays</b></summary>
 
-* **Title:** Author/Publisher
-* **Focus:** Critical or analytical aspect covered
-* **Link:** [if available]
+* **"Title":** Author/Publisher
+  * **Focus:** Critical or analytical aspect covered
+  * **Link:** [URL]
 
 </details>
 
@@ -236,19 +78,10 @@ tags:
 <details open>
 <summary><b>🎬 Analytical Videos</b></summary>
 
-* **Title:** Creator/Channel
-* **Platform:** YouTube, Vimeo, etc.
-* **Duration:** [minutes]
-* **Topic:** What the video covers
-
-</details>
-
-<details open>
-<summary><b>🎞️ Documentaries & Making-Of</b></summary>
-
-* **Title:** Studio/Creator
-* **Type:** [Documentary, compiled interview, etc.]
-* **Link:** [URL]
+* **"Title"** - Creator/Channel
+  * Platform: YouTube/Vimeo/etc
+  * Duration: ~[XX] minutes
+  * Topic: What the video covers
 
 </details>
 
@@ -259,20 +92,10 @@ tags:
 <details open>
 <summary><b>🎤 Key Interviews</b></summary>
 
-* **Year/Date:** [e.g., 2001]
-* **Interviewee:** Creator/Designer Name
-* **Medium:** [Shmuplations, Interview Archive, etc.]
-* **Key Topic:** Main theme of the interview
-* **Link:** [URL]
-
-</details>
-
-<details open>
-<summary><b>📊 Post-Mortems & Retrospectives</b></summary>
-
-* **Source:** [e.g., GDC, Gamasutra]
-* **Topic:** Development evolution or reception
-* **Link:** [URL]
+* **"Title"** (Year)
+  * Interviewee: Creator/Designer
+  * Medium: Interview archive/publication
+  * Topic: Main theme or quotes
 
 </details>
 
@@ -281,44 +104,43 @@ tags:
 ## 🎨 Artistic References & Cross-Media Inspirations
 
 <details open>
-<summary><b>🖼️ Visual Arts (Painting, Sculpture, Photography)</b></summary>
+<summary><b>🖼️ Visual Arts</b></summary>
 
-* **Artist/Work:** [e.g., Giorgio de Chirico, "Piazza d'Italia"]
-* **Connection:** How the work influences the game's visual design
-* **Notes:** Specific details
+* **Artist - "Work Title"**
+  * **Connection:** How the work influences the game's design
+  * **Notes:** Specific visual or thematic parallels
 
 </details>
 
 <details open>
 <summary><b>🏛️ Architecture & Spatial Design</b></summary>
 
-* **Architect/Style:** [e.g., M.C. Escher, Brutalist Architecture]
-* **Influence:** How it reflects in level design
-* **Link:** [visual references]
+* **Architect/Style:** [e.g., Frank Lloyd Wright, Brutalism]
+  * **Influence:** How it reflects in level design and spatial complexity
 
 </details>
 
 <details open>
 <summary><b>📖 Literature & Philosophy</b></summary>
 
-* **Author/Work:** [e.g., Dante Alighieri, "Divine Comedy"]
-* **Theme:** How the literary theme is reinterpreted in the game
+* **Author - "Work Title"**
+  * **Theme:** How the literary theme is reinterpreted in the game
 
 </details>
 
 <details open>
 <summary><b>🎵 Music & Sound</b></summary>
 
-* **Genre/Composer:** [e.g., Baroque Music, Akira Yamaoka]
-* **Influence:** Correlation between musical structure and game atmosphere
+* **Genre/Composer:** [e.g., Jazz Fusion, Akira Yamaoka]
+  * **Influence:** Correlation between musical structure and game atmosphere
 
 </details>
 
 <details open>
 <summary><b>🎬 Cinema & Visual Media</b></summary>
 
-* **Title/Director:** [e.g., "Blade Runner", Ridley Scott]
-* **Shared DNA:** Narrative or visual elements in common
+* **"Title"** - Director
+  * **Shared DNA:** Narrative or visual elements in common
 
 </details>
 
@@ -331,8 +153,7 @@ tags:
 
 | Date | Platform | Version | Notes |
 |------|----------|---------|-------|
-| [YYYY] | [Platform] | [e.g., Original, Remaster, Remake] | [Technical details] |
-| | | | |
+| [YYYY-MM-DD] | [Platform] | [Original/Remaster/Remake] | [Details] |
 
 </details>
 
@@ -346,10 +167,29 @@ tags:
 
 ## 📚 Acknowledgments & Primary Sources
 
-- **Source 1:** [Link or citation]
-- **Source 2:** [Link or citation]
-- **Source 3:** [Link or citation]
+- **Source 1:** [Link or full citation]
+- **Source 2:** [Link or full citation]
+- **Source 3:** [Link or full citation]
 
 ---
 
-**Last Modified:** [Date] | **Curator:** [Name/Nickname] | **Status:** [Draft / In Review / Published]
+**Last Modified:** [Date] | **Curator:** [Name] | **Status:** [Draft / In Review / Published]
+
+## 📸 ADDING COVER ART
+
+1. **Source the box art image:**
+   - Use official publisher box art when available (fair use for editorial/archival purposes)
+   - Sources: Wikipedia, MobyGames, IGDB, Fandom wikis
+   - Preferred format: JPG, 300x400px (portrait orientation)
+
+2. **Add to repository:**
+   - Save as: `quartz-setup/static/covers/[game-slug].jpg`
+   - Example: `castlevania-aria-of-sorrow.jpg`
+
+3. **Update frontmatter:**
+   ```yaml
+   cover: /video-game-culture/static/covers/[game-slug].jpg
+   releaseDate: YYYY-MM-DD
+   ```
+
+4. **The homepage will automatically include the image in the featured games grid**

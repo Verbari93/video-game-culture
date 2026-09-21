@@ -4,6 +4,207 @@ The Cross-Media Pop Culture Archive maintains rigorous standards for academic in
 
 ---
 
+## 🏷️ Mandatory Metadata Tags
+
+**Every game card MUST include the following tags in the frontmatter to ensure discoverability and consistency across the archive.**
+
+### Required Tags
+
+#### 1. **Genre**
+Classify the primary game genre(s). Use standardized values:
+
+```yaml
+tags:
+  - genre/action-rpg
+  - genre/metroidvania
+  - genre/puzzle
+  - genre/strategy
+  - genre/platformer
+  - genre/adventure
+  - genre/simulation
+  - genre/sports
+  - genre/rhythm
+  - genre/visual-novel
+```
+
+**Note:** Include 1-3 primary genres. Use nested slash notation (`genre/subgenre`) for clarity.
+
+#### 2. **Platform Availability**
+Document all platforms where the game is available, including ports and remasters:
+
+```yaml
+tags:
+  - platform/gba        # Original/primary platform
+  - platform/ds         # Nintendo DS port
+  - platform/steam      # PC port
+  - platform/switch     # Nintendo Switch port
+  - platform/playstation-5
+  - platform/xbox-series-x
+  - platform/mobile-ios
+  - platform/mobile-android
+  - platform/arcade
+  - platform/wii
+  - platform/ps2
+```
+
+**Include:** Every platform the game has been released on. This helps players find versions they can actually play.
+
+#### 3. **Number of Players**
+Specify the gameplay mode(s):
+
+```yaml
+tags:
+  - players/single-player
+  - players/multiplayer
+  - players/co-op
+  - players/local-multiplayer
+  - players/online-multiplayer
+  - players/competitive
+  - players/asynchronous-multiplayer
+```
+
+#### 4. **Developer/Publisher Company**
+Tag the company that created or published the game:
+
+```yaml
+tags:
+  - company/konami
+  - company/capcom
+  - company/nintendo
+  - company/square-enix
+  - company/sony
+  - company/microsoft
+  - company/activision
+  - company/ubisoft
+  - company/bandai-namco
+  - company/independent  # For indie games
+```
+
+**Note:** Use lowercase with hyphens for multi-word names.
+
+#### 5. **Series/Saga**
+Tag the franchise or series the game belongs to:
+
+```yaml
+tags:
+  - saga/castlevania
+  - saga/metroid
+  - saga/zelda
+  - saga/mega-man
+  - saga/final-fantasy
+  - saga/resident-evil
+  - saga/pokemon
+  - saga/mario
+  - saga/sonic
+  - saga/stand-alone  # For games without series
+```
+
+**Note:** Use the official series name. For spin-offs, include both the main series and indicate it's a spin-off in the card body.
+
+### Optional Tags (Contextual)
+
+Add these as relevant:
+
+```yaml
+tags:
+  - era/8-bit
+  - era/16-bit
+  - era/32-bit
+  - era/64-bit
+  - era/3d-renaissance    # Early 3D era
+  - era/modern            # Modern gaming era (2015+)
+  
+  - style/pixel-art
+  - style/hand-drawn
+  - style/3d-polygonal
+  - style/photorealistic
+  - style/voxel
+  
+  - theme/gothic
+  - theme/cyberpunk
+  - theme/fantasy
+  - theme/sci-fi
+  - theme/horror
+  - theme/noir
+  - theme/post-apocalyptic
+  - theme/historical
+  
+  - rating/esrb-e      # E for Everyone
+  - rating/esrb-t      # Teen
+  - rating/esrb-m      # Mature
+  - rating/pegi-3
+  - rating/pegi-7
+  - rating/pegi-12
+  - rating/pegi-16
+  - rating/pegi-18
+  
+  - region/japan        # Clarify region-specific releases
+  - region/north-america
+  - region/europe
+```
+
+### Complete Frontmatter Example
+
+```yaml
+---
+title: "Castlevania: Aria of Sorrow"
+description: >
+  A masterpiece Metroidvania by Konami. Soma Cruz explores a gothic castle, 
+  collecting souls to gain abilities, influenced by Gothic art and literature.
+tags:
+  # Genre
+  - genre/action-rpg
+  - genre/metroidvania
+  
+  # Platforms
+  - platform/gba
+  - platform/ds
+  - platform/switch
+  - platform/mobile-ios
+  - platform/mobile-android
+  
+  # Players
+  - players/single-player
+  
+  # Company
+  - company/konami
+  
+  # Series
+  - saga/castlevania
+  
+  # Optional Context
+  - era/32-bit
+  - style/hand-drawn
+  - theme/gothic
+  - theme/horror
+  - rating/esrb-m
+  - region/japan
+  - region/north-america
+  - region/europe
+---
+```
+
+### How Tags Are Used
+
+- **Archive Navigation:** Tags create filterable collections (e.g., "Show all games from Nintendo" or "Show all Metroidvanias")
+- **Search Functionality:** Tags improve discoverability (e.g., users can search "platform/switch" to find portable versions)
+- **Cross-References:** Related games can be linked via shared tags
+- **Quality Control:** Consistent tagging ensures contributors follow a standardized system
+
+### Verification Checklist for Tags
+
+Before submitting a card:
+
+- [ ] At least 1 Genre tag is included
+- [ ] All Platform versions are listed (original + ports + remasters)
+- [ ] Player mode(s) are specified (single/multi/co-op)
+- [ ] Developer/Publisher company is tagged
+- [ ] Series/Saga is tagged (or `saga/stand-alone` if applicable)
+- [ ] All tags use lowercase with hyphens
+- [ ] All tags follow the `category/value` format
+
+---
+
 ## 🔗 Rule 1: Mandatory Citations
 
 **Every factual claim must have a clickable reference immediately adjacent to it.**

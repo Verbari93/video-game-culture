@@ -1,3 +1,38 @@
+---
+title: "[Game Title]"
+description: >
+  [1-2 sentence description of the game and its cultural significance.
+  This is displayed in search results and listings.]
+tags:
+  # Genre (Required: at least 1)
+  - genre/[primary-genre]
+  - genre/[secondary-genre]
+
+  # Platform Availability (Required: all platforms)
+  - platform/[original-platform]
+  - platform/[port-platform]
+  # Common values: gba, ds, ps2, ps5, xbox-series-x, switch, steam, arcade, mobile-ios, mobile-android
+
+  # Number of Players (Required)
+  - players/single-player
+  # OR: players/multiplayer, players/co-op, players/local-multiplayer, players/online-multiplayer
+
+  # Company (Required: developer or publisher)
+  - company/[studio-name]
+  # Common values: konami, capcom, nintendo, sony, square-enix, independent
+
+  # Series/Saga (Required)
+  - saga/[series-name]
+  # OR: saga/stand-alone if no series
+
+  # Optional Tags (Use as relevant)
+  - era/[8-bit|16-bit|32-bit|64-bit|3d-renaissance|modern]
+  - style/[pixel-art|hand-drawn|3d-polygonal|photorealistic]
+  - theme/[gothic|cyberpunk|fantasy|sci-fi|horror|noir|post-apocalyptic]
+  - rating/[esrb-e|esrb-t|esrb-m|pegi-3|pegi-7|pegi-12|pegi-16|pegi-18]
+  - region/[japan|north-america|europe|worldwide]
+---
+
 # [Game Title] (Year)
 
 **Developer:** Studio Name | **Director:** Creator Name | **Original Platform:** [e.g., PS2, GBA, etc.]

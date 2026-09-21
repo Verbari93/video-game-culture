@@ -1,3 +1,42 @@
+---
+title: "Castlevania: Aria of Sorrow"
+description: >
+  A masterpiece Metroidvania by Konami (2003). Soma Cruz explores Dracula's Castle,
+  absorbing souls to gain abilities. Celebrated for minimalist art, jazz-fusion soundtrack,
+  and innovations that prefigure modern roguelikes. Features complex cross-media influences.
+tags:
+  # Genre (Required)
+  - genre/action-rpg
+  - genre/metroidvania
+
+  # Platform Availability (Required)
+  - platform/gba
+  - platform/wii-virtual-console
+  - platform/3ds-virtual-console
+  - platform/switch-anniversary-collection
+
+  # Number of Players (Required)
+  - players/single-player
+
+  # Company (Required)
+  - company/konami
+
+  # Series/Saga (Required)
+  - saga/castlevania
+
+  # Optional Context Tags
+  - era/32-bit
+  - style/hand-drawn
+  - style/sprite-animation
+  - theme/gothic
+  - theme/horror
+  - theme/supernatural
+  - rating/esrb-t
+  - region/japan
+  - region/north-america
+  - region/europe
+---
+
 # Castlevania: Aria of Sorrow (2003)
 
 **Developer:** Konami Computer Entertainment Tokyo (KCET) | **Director:** Koji Igarashi | **Original Platform:** Game Boy Advance

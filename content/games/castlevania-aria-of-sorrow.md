@@ -37,11 +37,177 @@ tags:
   - region/europe
 ---
 
-# Castlevania: Aria of Sorrow (2003)
+<style>
+.game-header {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(40, 75, 99, 0.1) 0%, rgba(132, 165, 157, 0.1) 100%);
+  border-radius: 12px;
+  border-left: 4px solid var(--secondary);
+}
 
-**Developer:** Konami Computer Entertainment Tokyo (KCET) | **Director:** Koji Igarashi | **Original Platform:** Game Boy Advance
+.game-meta-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-between;
+}
 
-**Genre:** Action RPG / Metroidvania | **Rating:** T for Teen (ESRB)
+.game-meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.meta-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--secondary);
+}
+
+.meta-value {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--darkgray);
+}
+
+.game-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.game-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--dark);
+  line-height: 1.2;
+}
+
+.game-year {
+  font-size: 1.5rem;
+  color: var(--secondary);
+  font-weight: 600;
+}
+
+.game-rating {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: var(--highlight);
+  border-radius: 6px;
+  font-weight: 600;
+  color: var(--dark);
+  width: fit-content;
+}
+
+.tag-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  background-color: var(--tertiary);
+  color: white;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.tag.platform {
+  background-color: var(--secondary);
+}
+
+.tag.genre {
+  background-color: #7b97aa;
+}
+
+.tag.company {
+  background-color: #84a59d;
+}
+
+.synopsis-box {
+  background-color: var(--highlight);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  border-left: 4px solid var(--secondary);
+}
+
+.synopsis-box p {
+  margin: 0;
+  line-height: 1.6;
+  color: var(--darkgray);
+}
+
+@media (max-width: 768px) {
+  .game-header {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+  
+  .game-title {
+    font-size: 1.5rem;
+  }
+  
+  .game-year {
+    font-size: 1.2rem;
+  }
+}
+</style>
+
+<div class="game-header">
+  <div class="game-meta-card">
+    <div class="game-meta-item">
+      <span class="meta-label">Developer</span>
+      <span class="meta-value">Konami Computer Entertainment Tokyo</span>
+    </div>
+    <div class="game-meta-item">
+      <span class="meta-label">Director</span>
+      <span class="meta-value">Koji Igarashi</span>
+    </div>
+    <div class="game-meta-item">
+      <span class="meta-label">Original Platform</span>
+      <span class="meta-value">Game Boy Advance</span>
+    </div>
+    <div class="game-meta-item">
+      <span class="meta-label">Rating</span>
+      <div class="game-rating">T for Teen (ESRB)</div>
+    </div>
+  </div>
+  
+  <div class="game-info">
+    <div>
+      <div class="game-year">2003</div>
+      <h1 class="game-title">Castlevania: Aria of Sorrow</h1>
+    </div>
+    <div class="tag-section">
+      <span class="tag genre">Action RPG</span>
+      <span class="tag genre">Metroidvania</span>
+      <span class="tag platform">GBA</span>
+      <span class="tag platform">Switch</span>
+      <span class="tag company">Konami</span>
+    </div>
+  </div>
+</div>
+
+<div class="synopsis-box">
+
+Castlevania: Aria of Sorrow is a masterpiece of the [Metroidvania](https://en.wikipedia.org/wiki/Metroidvania) genre that concludes the [GBA trilogy](https://www.ign.com/wikis/castlevania-gba-games). Set in the distant future of [2035](https://castlevania.fandom.com/wiki/Castlevania:_Aria_of_Sorrow), the game follows Soma Cruz, a young teenager who discovers he is the [reincarnation of Dracula](https://castlevania.fandom.com/wiki/Soma_Cruz). Through the power of absorbing the "souls" of defeated enemies, Soma must confront his dark destiny while exploring the organic labyrinth of Dracula's Castle.
+
+The work is celebrated for its [minimalist artistic direction](https://www.youtube.com/watch?v=lUL3EZqXpMU), [jazz-fusion soundtrack](https://www.youtube.com/watch?v=3B9VRFTZ8uo), and [soul equip combat system](https://www.youtube.com/watch?v=G-VnrFvvpDo) — a precursor to modern roguelikes. It is considered [one of the best handheld adventures](https://www.metacritic.com/game/game-boy-advance/castlevania-aria-of-sorrow/) and a cornerstone in the renaissance of Japanese action-RPGs in the early 2000s.
+
+</div>
 
 ---
 
@@ -55,8 +221,8 @@ The work is celebrated for its [minimalist artistic direction](https://www.youtu
 
 ## 📖 Books, Essays & Novels
 
-<details>
-<summary><b>Novels and Tie-In Media</b></summary>
+<details open>
+<summary><b>📚 Novels and Tie-In Media</b></summary>
 
 * **"The Castlevania Legends: Dawn of Sorrow"** (Unofficial Novelization / Fan Works)
   * While no official novelization exists, the fan community has produced numerous reinterpretations of Soma Cruz's story.
@@ -64,8 +230,8 @@ The work is celebrated for its [minimalist artistic direction](https://www.youtu
 
 </details>
 
-<details>
-<summary><b>Critical & Analytical Essays</b></summary>
+<details open>
+<summary><b>✍️ Critical & Analytical Essays</b></summary>
 
 * **"Reverse Engineering Dracula: The Soul System in Aria of Sorrow"** (Academic Fan Analysis)
   * Analysis of how the soul equip system represents a modern reinterpretation of the "legacy of evil" concept in Castlevania mythology.
@@ -78,10 +244,10 @@ The work is celebrated for its [minimalist artistic direction](https://www.youtu
 
 ---
 
-## 📽 Video Essays & Documentaries
+## 📽️ Video Essays & Documentaries
 
-<details>
-<summary><b>Analytical Videos</b></summary>
+<details open>
+<summary><b>🎬 Analytical Videos</b></summary>
 
 * **["Aria of Sorrow: The Masterpiece of Metroidvania"](https://www.youtube.com/watch?v=lUL3EZqXpMU)** - Jacob Geller
   * Platform: YouTube
@@ -100,8 +266,8 @@ The work is celebrated for its [minimalist artistic direction](https://www.youtu
 
 </details>
 
-<details>
-<summary><b>Documentaries & Making-Of</b></summary>
+<details open>
+<summary><b>🎞️ Documentaries & Making-Of</b></summary>
 
 * **[Castlevania Anniversary Collection - Developer Commentary](https://www.youtube.com/watch?v=H5a9Z1A2fMo)**
   * Type: Behind-the-scenes interviews with Koji Igarashi and the KCET team
@@ -114,8 +280,8 @@ The work is celebrated for its [minimalist artistic direction](https://www.youtu
 
 ## 📰 Historical Interviews & Post-Mortems
 
-<details>
-<summary><b>Key Interviews</b></summary>
+<details open>
+<summary><b>🎤 Key Interviews</b></summary>
 
 * **["Koji Igarashi on Aria of Sorrow and the Future of Castlevania"](https://www.shmuplations.com/castlevaniaos/)** (2003)
   * Interviewee: Koji Igarashi (Director)
@@ -130,8 +296,8 @@ The work is celebrated for its [minimalist artistic direction](https://www.youtu
 
 </details>
 
-<details>
-<summary><b>Post-Mortems & Retrospectives</b></summary>
+<details open>
+<summary><b>📊 Post-Mortems & Retrospectives</b></summary>
 
 * **["20 Years Later: Aria of Sorrow's Legacy in Modern Game Design"](https://www.retrogamer.net/)** (2023)
   * Source: [Retro Gamer Magazine](https://www.retrogamer.net/) / Academic Game Studies
@@ -144,8 +310,8 @@ The work is celebrated for its [minimalist artistic direction](https://www.youtu
 
 ## 🎨 Artistic References & Cross-Media Inspirations
 
-<details>
-<summary><b>Visual Arts (Painting, Sculpture, Photography)</b></summary>
+<details open>
+<summary><b>🖼️ Visual Arts (Painting, Sculpture, Photography)</b></summary>
 
 * **[Caravaggio - "Judith Beheading Holofernes"](https://en.wikipedia.org/wiki/Judith_Beheading_Holofernes) (1598-1599)**
   * **Speculated Connection:** The game employs dramatic [chiaroscuro](https://en.wikipedia.org/wiki/Chiaroscuro) (light/shadow contrast) similar to Caravaggio's style.
@@ -169,8 +335,8 @@ The work is celebrated for its [minimalist artistic direction](https://www.youtu
 
 </details>
 
-<details>
-<summary><b>Architecture & Spatial Design</b></summary>
+<details open>
+<summary><b>🏛️ Architecture & Spatial Design</b></summary>
 
 * **[Gothic Architecture - Reims Cathedral, Milan Cathedral](https://en.wikipedia.org/wiki/Gothic_architecture)**
   * **Connection:** The castle's verticality and spatial complexity echo Gothic cathedral design.
@@ -198,8 +364,8 @@ The work is celebrated for its [minimalist artistic direction](https://www.youtu
 
 </details>
 
-<details>
-<summary><b>Literature & Philosophy</b></summary>
+<details open>
+<summary><b>📖 Literature & Philosophy</b></summary>
 
 * **["Faust" - Johann Wolfgang von Goethe](https://en.wikipedia.org/wiki/Faust) (1829)**
   * **Thematic Parallel:** Soma as modern Faust — a young man who realizes forbidden power and must choose between ethical use and corruption.
@@ -230,8 +396,8 @@ The work is celebrated for its [minimalist artistic direction](https://www.youtu
 
 </details>
 
-<details>
-<summary><b>Music & Sound</b></summary>
+<details open>
+<summary><b>🎵 Music & Sound</b></summary>
 
 * **Jazz Fusion (Herbie Hancock, Weather Report, Chick Corea)**
   * Influence: The Aria of Sorrow soundtrack (composed by Masanori Adachi, Michiru Yamane, Naoki Kodama) is entirely jazz-fusion, emphasizing synth-bass, drum machines, and jazz improvisation.
@@ -250,8 +416,8 @@ The work is celebrated for its [minimalist artistic direction](https://www.youtu
 
 </details>
 
-<details>
-<summary><b>Cinema & Visual Media</b></summary>
+<details open>
+<summary><b>🎬 Cinema & Visual Media</b></summary>
 
 * **"Nosferatu"** (F.W. Murnau, 1922)
   * Shared DNA: Gothic expressionism, use of light and shadow to represent evil; Dracula as an irrational and unstoppable force.

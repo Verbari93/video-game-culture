@@ -3,42 +3,32 @@ title: "Castlevania: Aria of Sorrow"
 description: >
   A masterpiece Metroidvania by Konami (2003). Soma Cruz explores Dracula's Castle,
   absorbing souls to gain abilities. Celebrated for minimalist art, jazz-fusion soundtrack,
-  and innovations that prefigure modern roguelikes. Features complex cross-media influences.
+  and innovations that prefigure modern roguelikes.
 tags:
   - genre/action-rpg
   - genre/metroidvania
   - platform/gba
-  - platform/wii-virtual-console
-  - platform/3ds-virtual-console
   - platform/switch-anniversary-collection
   - players/single-player
   - company/konami
   - saga/castlevania
   - era/32-bit
-  - style/hand-drawn
-  - style/sprite-animation
   - theme/gothic
-  - theme/horror
-  - theme/supernatural
   - rating/esrb-t
-  - region/japan
-  - region/north-america
-  - region/europe
 ---
 
-# Castlevania: Aria of Sorrow
+# Castlevania: Aria of Sorrow (2003)
 
-**Developer:** Konami Computer Entertainment Tokyo (KCET) | **Director:** Koji Igarashi | **Original Platform:** Game Boy Advance
+> **Developer:** Konami Computer Entertainment Tokyo (KCET)  
+> **Director:** Koji Igarashi  
+> **Platform:** Game Boy Advance  
+> **Genre:** Action RPG / Metroidvania  
+> **Rating:** T for Teen (ESRB)
 
-**Genre:** Action RPG / Metroidvania | **Rating:** T for Teen (ESRB)
-
----
-
-## 📌 Synopsis
-
-Castlevania: Aria of Sorrow is a masterpiece of the [Metroidvania](https://en.wikipedia.org/wiki/Metroidvania) genre that concludes the [GBA trilogy](https://www.ign.com/wikis/castlevania-gba-games). Set in the distant future of [2035](https://castlevania.fandom.com/wiki/Castlevania:_Aria_of_Sorrow), the game follows Soma Cruz, a young teenager who discovers he is the [reincarnation of Dracula](https://castlevania.fandom.com/wiki/Soma_Cruz). Through the power of absorbing the "souls" of defeated enemies, Soma must confront his dark destiny while exploring the organic labyrinth of Dracula's Castle.
-
-The work is celebrated for its [minimalist artistic direction](https://www.youtube.com/watch?v=lUL3EZqXpMU), [jazz-fusion soundtrack](https://www.youtube.com/watch?v=3B9VRFTZ8uo), and [soul equip combat system](https://www.youtube.com/watch?v=G-VnrFvvpDo) — a precursor to modern roguelikes. It is considered [one of the best handheld adventures](https://www.metacritic.com/game/game-boy-advance/castlevania-aria-of-sorrow/) and a cornerstone in the renaissance of Japanese action-RPGs in the early 2000s.
+> [!note] 📌 Synopsis
+> Castlevania: Aria of Sorrow is a masterpiece of the [Metroidvania](https://en.wikipedia.org/wiki/Metroidvania) genre that concludes the [GBA trilogy](https://www.ign.com/wikis/castlevania-gba-games). Set in 2035, Soma Cruz discovers he is the reincarnation of Dracula. By absorbing "souls" of defeated enemies, Soma must confront his dark destiny while exploring Dracula's Castle.
+>
+> Celebrated for its minimalist artistic direction, jazz-fusion soundtrack, and innovative soul equip system that prefigures modern roguelikes.
 
 ---
 

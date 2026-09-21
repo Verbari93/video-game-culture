@@ -1,8 +1,9 @@
 @use "./variables.scss" as *;
 
-// Simple card styling using Quartz's built-in elements
+// Card styling - makes game cards visually appealing with modern design
+// Using Quartz built-in elements (blockquotes, callouts, headings)
 
-// Blockquote styling for metadata
+// Blockquote styling for metadata - creates a distinctive header section
 article > blockquote:first-of-type {
   background: linear-gradient(135deg, rgba(40, 75, 99, 0.08) 0%, rgba(132, 165, 157, 0.08) 100%);
   border-left: 4px solid var(--secondary) !important;
@@ -20,19 +21,22 @@ article > blockquote:first-of-type strong {
   margin-bottom: 0.25rem;
 }
 
-// Callout styling for synopsis
+// Callout styling for synopsis - highlights key information
 article > .callout[data-callout="note"] {
   background-color: rgba(40, 75, 99, 0.05) !important;
   border-left-color: var(--secondary) !important;
   border-left-width: 4px !important;
   margin: 1.5rem 0;
+  border-radius: 4px;
+  padding: 1rem !important;
 }
 
-// Title styling
+// Title styling - makes the game title prominent and distinctive
 article > h1:first-of-type {
   font-size: 2.2rem;
   margin-bottom: 1.5rem;
   padding-bottom: 0.75rem;
   border-bottom: 3px solid var(--secondary);
   color: var(--dark);
+  text-transform: none;
 }

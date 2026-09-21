@@ -3,8 +3,12 @@
 // Card styling - makes game cards visually appealing with modern design
 // Using Quartz built-in elements (blockquotes, callouts, headings)
 
+// NOTE: Quartz wraps rendered markdown in
+// <article><div class="markdown-preview-view">...actual content...</div></article>
+// so selectors must target through that wrapper div, not `article > *` directly.
+
 // Blockquote styling for metadata - creates a distinctive header section
-article > blockquote:first-of-type {
+article .markdown-preview-view > blockquote:first-of-type {
   background: linear-gradient(135deg, rgba(40, 75, 99, 0.08) 0%, rgba(132, 165, 157, 0.08) 100%);
   border-left: 4px solid var(--secondary) !important;
   border-radius: 6px;
@@ -14,7 +18,7 @@ article > blockquote:first-of-type {
   line-height: 1.6;
 }
 
-article > blockquote:first-of-type strong {
+article .markdown-preview-view > blockquote:first-of-type strong {
   color: var(--secondary);
   font-weight: 700;
   display: block;
@@ -22,7 +26,7 @@ article > blockquote:first-of-type strong {
 }
 
 // Callout styling for synopsis - highlights key information
-article > .callout[data-callout="note"] {
+article .markdown-preview-view > .callout[data-callout="note"] {
   background-color: rgba(40, 75, 99, 0.05) !important;
   border-left-color: var(--secondary) !important;
   border-left-width: 4px !important;
@@ -32,7 +36,7 @@ article > .callout[data-callout="note"] {
 }
 
 // Title styling - makes the game title prominent and distinctive
-article > h1:first-of-type {
+article .markdown-preview-view > h1:first-of-type {
   font-size: 2.2rem;
   margin-bottom: 1.5rem;
   padding-bottom: 0.75rem;

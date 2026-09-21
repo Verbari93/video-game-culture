@@ -10,11 +10,11 @@ Welcome to the **Cross-Media Pop Culture Archive (CPCA)** — an open, collabora
 
 ### Latest Additions
 
-- **[[Castlevania: Aria of Sorrow]]** (2003) - The masterpiece Metroidvania and the culmination of the GBA trilogy. Explore the soul system, gothic influences, and 20 years of legacy.
+- **[Castlevania: Aria of Sorrow](games/castlevania-aria-of-sorrow)** (2003) - The masterpiece Metroidvania and the culmination of the GBA trilogy. Explore the soul system, gothic influences, and 20 years of legacy.
 
 ## 📋 Browse by Category
 
-- [All Games](index.md)
+- [All Games](.)
 - Action RPG
 - Metroidvania
 - Story-Driven
@@ -34,8 +34,8 @@ All contributions are welcome — whether it's a book reference, interview link,
 ## 🔗 Useful Resources
 
 - [Project Template](TEMPLATE.md)
-- [GitHub Repository](#)
-- [Contributing Guidelines](#)
+- [GitHub Repository](https://github.com/Verbari93/video-game-culture)
+- [Contributing Guidelines](CONTRIBUTING.md)
 
 ---
 

@@ -5,26 +5,15 @@ description: >
   absorbing souls to gain abilities. Celebrated for minimalist art, jazz-fusion soundtrack,
   and innovations that prefigure modern roguelikes. Features complex cross-media influences.
 tags:
-  # Genre (Required)
   - genre/action-rpg
   - genre/metroidvania
-
-  # Platform Availability (Required)
   - platform/gba
   - platform/wii-virtual-console
   - platform/3ds-virtual-console
   - platform/switch-anniversary-collection
-
-  # Number of Players (Required)
   - players/single-player
-
-  # Company (Required)
   - company/konami
-
-  # Series/Saga (Required)
   - saga/castlevania
-
-  # Optional Context Tags
   - era/32-bit
   - style/hand-drawn
   - style/sprite-animation
@@ -37,48 +26,19 @@ tags:
   - region/europe
 ---
 
-<div class="game-header">
-  <div class="game-meta-card">
-    <div class="game-meta-item">
-      <span class="meta-label">Developer</span>
-      <span class="meta-value">Konami Computer Entertainment Tokyo</span>
-    </div>
-    <div class="game-meta-item">
-      <span class="meta-label">Director</span>
-      <span class="meta-value">Koji Igarashi</span>
-    </div>
-    <div class="game-meta-item">
-      <span class="meta-label">Original Platform</span>
-      <span class="meta-value">Game Boy Advance</span>
-    </div>
-    <div class="game-meta-item">
-      <span class="meta-label">Rating</span>
-      <div class="game-rating">T for Teen (ESRB)</div>
-    </div>
-  </div>
-  
-  <div class="game-info">
-    <div>
-      <div class="game-year">2003</div>
-      <h1 class="game-title">Castlevania: Aria of Sorrow</h1>
-    </div>
-    <div class="tag-section">
-      <span class="tag genre">Action RPG</span>
-      <span class="tag genre">Metroidvania</span>
-      <span class="tag platform">GBA</span>
-      <span class="tag platform">Switch</span>
-      <span class="tag company">Konami</span>
-    </div>
-  </div>
-</div>
+# Castlevania: Aria of Sorrow
 
-<div class="synopsis-box">
+**Developer:** Konami Computer Entertainment Tokyo (KCET) | **Director:** Koji Igarashi | **Original Platform:** Game Boy Advance
+
+**Genre:** Action RPG / Metroidvania | **Rating:** T for Teen (ESRB)
+
+---
+
+## 📌 Synopsis
 
 Castlevania: Aria of Sorrow is a masterpiece of the [Metroidvania](https://en.wikipedia.org/wiki/Metroidvania) genre that concludes the [GBA trilogy](https://www.ign.com/wikis/castlevania-gba-games). Set in the distant future of [2035](https://castlevania.fandom.com/wiki/Castlevania:_Aria_of_Sorrow), the game follows Soma Cruz, a young teenager who discovers he is the [reincarnation of Dracula](https://castlevania.fandom.com/wiki/Soma_Cruz). Through the power of absorbing the "souls" of defeated enemies, Soma must confront his dark destiny while exploring the organic labyrinth of Dracula's Castle.
 
 The work is celebrated for its [minimalist artistic direction](https://www.youtube.com/watch?v=lUL3EZqXpMU), [jazz-fusion soundtrack](https://www.youtube.com/watch?v=3B9VRFTZ8uo), and [soul equip combat system](https://www.youtube.com/watch?v=G-VnrFvvpDo) — a precursor to modern roguelikes. It is considered [one of the best handheld adventures](https://www.metacritic.com/game/game-boy-advance/castlevania-aria-of-sorrow/) and a cornerstone in the renaissance of Japanese action-RPGs in the early 2000s.
-
-</div>
 
 ---
 

@@ -1,132 +1,110 @@
 @use "./variables.scss" as *;
 
 // Game Card Styling for CPCA
+// Simple approach: style the markdown output directly
 
-.game-header {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 2rem;
-  margin-bottom: 2rem;
-  padding: 2rem;
-  background: linear-gradient(135deg, rgba(40, 75, 99, 0.1) 0%, rgba(132, 165, 157, 0.1) 100%);
-  border-radius: 12px;
+article > h1:first-of-type {
+  // Main title
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--secondary);
+  color: var(--dark);
+}
+
+article > p:nth-of-type(1),
+article > p:nth-of-type(2) {
+  // Metadata paragraphs  
+  background: linear-gradient(135deg, rgba(40, 75, 99, 0.08) 0%, rgba(132, 165, 157, 0.08) 100%);
+  padding: 1.25rem;
+  border-radius: 8px;
   border-left: 4px solid var(--secondary);
+  margin: 1rem 0;
+  font-size: 0.95rem;
+  line-height: 1.8;
 }
 
-.game-meta-card {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  justify-content: space-between;
-}
-
-.game-meta-item {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-}
-
-.meta-label {
-  font-size: 0.85rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+article > p:nth-of-type(1) strong,
+article > p:nth-of-type(2) strong {
   color: var(--secondary);
-}
-
-.meta-value {
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: var(--darkgray);
-}
-
-.game-info {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.game-title {
-  font-size: 2rem;
   font-weight: 700;
-  margin: 0;
+}
+
+// Highlight synopsis
+article > h2:nth-of-type(1) {
+  //📌 Synopsis header
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   color: var(--dark);
-  line-height: 1.2;
+  font-size: 1.4rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--tertiary);
 }
 
-.game-year {
-  font-size: 1.5rem;
-  color: var(--secondary);
-  font-weight: 600;
-  margin: 0;
-}
-
-.game-rating {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background-color: var(--highlight);
-  border-radius: 6px;
-  font-weight: 600;
-  color: var(--dark);
-  width: fit-content;
-}
-
-.tag-section {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 1rem;
-}
-
-.tag {
-  display: inline-block;
-  padding: 0.4rem 0.8rem;
-  background-color: var(--tertiary);
-  color: white;
-  border-radius: 20px;
-  font-size: 0.85rem;
-  font-weight: 500;
-}
-
-.tag.platform {
-  background-color: var(--secondary);
-}
-
-.tag.genre {
-  background-color: #7b97aa;
-}
-
-.tag.company {
-  background-color: var(--tertiary);
-}
-
-.synopsis-box {
+article > h2:nth-of-type(1) + p {
+  // Synopsis paragraph
   background-color: var(--highlight);
   padding: 1.5rem;
   border-radius: 8px;
-  margin: 1.5rem 0;
   border-left: 4px solid var(--secondary);
-  
-  p {
-    margin: 0;
-    line-height: 1.6;
-    color: var(--darkgray);
-  }
+  margin: 1rem 0 2rem 0;
+  line-height: 1.8;
+  font-size: 1rem;
+  color: var(--darkgray);
 }
 
-// Mobile responsive
-@media (max-width: 768px) {
-  .game-header {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    padding: 1.5rem;
-  }
-  
-  .game-title {
-    font-size: 1.5rem;
-  }
-  
-  .game-year {
-    font-size: 1.2rem;
-  }
+// Details styling
+details {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: rgba(40, 75, 99, 0.05);
+  border-radius: 6px;
+  border-left: 3px solid var(--secondary);
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--dark);
+  user-select: none;
+  padding: 0.5rem 0;
+  transition: color 0.2s;
+}
+
+details summary:hover {
+  color: var(--secondary);
+}
+
+details[open] summary {
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--lightgray);
+}
+
+details ul {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+
+details li {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+// Section headers with emojis
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  color: var(--dark);
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--tertiary);
+}
+
+// Make hr more visible
+hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 2px solid var(--lightgray);
+  opacity: 0.6;
 }

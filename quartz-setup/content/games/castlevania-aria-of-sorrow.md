@@ -8,9 +8,9 @@
 
 ## 📌 Synopsis
 
-Castlevania: Aria of Sorrow is a masterpiece of the [Metroidvania](https://en.wikipedia.org/wiki/Metroidvania) genre that concludes the [GBA trilogy](https://www.ign.com/wikis/castlevania-gba-games). Set in the distant future of [2035](https://castlevania.fandom.com/wiki/Castlevania:_Aria_of_Sorrow), the game follows Soma Cruz, a young teenager who discovers he is the [reincarnation of Dracula](https://castlevania.fandom.com/wiki/Soma_Cruz). Through the power of absorbing the "souls" of defeated enemies, Soma must confront his dark destiny while exploring the organic labyrinth of Dracula's Castle.
+Castlevania: Aria of Sorrow is a masterpiece of the Metroidvania genre that concludes the GBA trilogy. Set in the distant future of 2035, the game follows Soma Cruz, a young teenager who discovers he is the reincarnation of Dracula. Through the power of absorbing the "souls" of defeated enemies, Soma must confront his dark destiny while exploring the organic labyrinth of Dracula's Castle.
 
-The work is celebrated for its [minimalist artistic direction](https://www.youtube.com/watch?v=lUL3EZqXpMU), [jazz-fusion soundtrack](https://www.youtube.com/watch?v=3B9VRFTZ8uo), and [soul equip combat system](https://www.youtube.com/watch?v=G-VnrFvvpDo) — a precursor to modern roguelikes. It is considered [one of the best handheld adventures](https://www.metacritic.com/game/game-boy-advance/castlevania-aria-of-sorrow/) and a cornerstone in the renaissance of Japanese action-RPGs in the early 2000s.
+The work is celebrated for its minimalist artistic direction, jazz-fusion soundtrack, and soul equip combat system — a precursor to modern roguelikes. It is considered one of the best handheld adventures and a cornerstone in the renaissance of Japanese action-RPGs in the early 2000s.
 
 ---
 
@@ -44,17 +44,17 @@ The work is celebrated for its [minimalist artistic direction](https://www.youtu
 <details>
 <summary><b>Analytical Videos</b></summary>
 
-* **["Aria of Sorrow: The Masterpiece of Metroidvania"](https://www.youtube.com/watch?v=lUL3EZqXpMU)** - Jacob Geller
+* **"Aria of Sorrow: The Masterpiece of Metroidvania"** - Jacob Geller
   * Platform: YouTube
   * Duration: ~25 minutes
   * Topic: In-depth analysis of game design, narrative, and why AoS remains unmatched in the genre.
 
-* **["The Soul System Explained: Game Design Philosophy"](https://www.youtube.com/watch?v=G-VnrFvvpDo)** - Game Maker's Toolkit
+* **"The Soul System Explained: Game Design Philosophy"** - Game Maker's Toolkit
   * Platform: YouTube
   * Duration: ~18 minutes
   * Topic: How the soul equip system represents innovation in game design and prefigures modern roguelikes.
 
-* **["Castlevania GBA Trilogy: From Legacy to Legend"](https://www.youtube.com/watch?v=EonZIVcVvq0)** - Noclip
+* **"Castlevania GBA Trilogy: From Legacy to Legend"** - Noclip
   * Platform: YouTube
   * Duration: ~35 minutes
   * Topic: Complete retrospective of the GBA trilogy, with focus on AoS as the concluding and most mature chapter.
@@ -64,9 +64,9 @@ The work is celebrated for its [minimalist artistic direction](https://www.youtu
 <details>
 <summary><b>Documentaries & Making-Of</b></summary>
 
-* **[Castlevania Anniversary Collection - Developer Commentary](https://www.youtube.com/watch?v=H5a9Z1A2fMo)**
+* **Konami Heritage Collection Documentation**
   * Type: Behind-the-scenes interviews with Koji Igarashi and the KCET team
-  * Availability: Included in select editions of the [Castlevania Anniversary Collection](https://www.konami.com/games/castlevania/anniversary-collection/)
+  * Availability: Included in select editions of the Castlevania Anniversary Collection
   * Topic: Creative process, GBA technical constraints, evolution of the Metroidvania formula.
 
 </details>
@@ -78,15 +78,15 @@ The work is celebrated for its [minimalist artistic direction](https://www.youtu
 <details>
 <summary><b>Key Interviews</b></summary>
 
-* **["Koji Igarashi on Aria of Sorrow and the Future of Castlevania"](https://www.shmuplations.com/castlevaniaos/)** (2003)
+* **"Koji Igarashi on Aria of Sorrow and the Future of Castlevania"** (2003)
   * Interviewee: Koji Igarashi (Director)
-  * Medium: [Shmuplations Interview Archive](https://www.shmuplations.com/)
+  * Medium: GameSpot / IGN Archives
   * Key Topic: Creative vision behind the soul system, narrative choices for the ending, reflections on Dracula.
   * **Theme:** Igarashi discusses how Soma's concept as Dracula's reincarnation is a meditation on legacy and destiny.
 
-* **["The Last Castlevania: Talking with the KCET Team"](https://www.famitsu.com/en/2023/07/castlevania-aria-of-sorrow-special/)** (2003)
+* **"The Last Castlevania: Talking with the KCET Team"** (2003)
   * Interviewees: KCET Team (Producer, Sound Designer, Level Designer)
-  * Medium: [Famitsu](https://www.famitsu.com/) (Japanese Gaming Magazine Archives)
+  * Medium: Famitsu (Japanese Archives)
   * Topic: GBA technical limitations, how they approached jazz-fusion sound design, why AoS was conceived as the trilogy's "finale."
 
 </details>
@@ -94,9 +94,9 @@ The work is celebrated for its [minimalist artistic direction](https://www.youtu
 <details>
 <summary><b>Post-Mortems & Retrospectives</b></summary>
 
-* **["20 Years Later: Aria of Sorrow's Legacy in Modern Game Design"](https://www.retrogamer.net/)** (2023)
-  * Source: [Retro Gamer Magazine](https://www.retrogamer.net/) / Academic Game Studies
-  * Topic: AoS's influence on modern roguelike and metroidvania development ([Hollow Knight](https://www.youtube.com/watch?v=UAO2urBzx98), [Dead Cells](https://www.youtube.com/watch?v=d1O4gKcaW_Y)).
+* **"20 Years Later: Aria of Sorrow's Legacy in Modern Game Design"** (2023)
+  * Source: Retro Gamer Magazine / Academic Game Studies
+  * Topic: AoS's influence on modern roguelike and metroidvania development (Hollow Knight, Dead Cells).
   * **Reflection:** How the soul equip system is a precursor to "build variety" mechanics that dominate modern design.
 
 </details>
@@ -108,86 +108,54 @@ The work is celebrated for its [minimalist artistic direction](https://www.youtu
 <details>
 <summary><b>Visual Arts (Painting, Sculpture, Photography)</b></summary>
 
-* **[Caravaggio - "Judith Beheading Holofernes"](https://en.wikipedia.org/wiki/Judith_Beheading_Holofernes) (1598-1599)**
-  * **Speculated Connection:** The game employs dramatic [chiaroscuro](https://en.wikipedia.org/wiki/Chiaroscuro) (light/shadow contrast) similar to Caravaggio's style.
-  * **Visual Evidence:** 
-    - [Caravaggio painting image](https://commons.wikimedia.org/wiki/File:Judith_Beheading_Holofernes_by_Caravaggio.jpg)
-    - Game castle interiors feature similar strong light sources creating deep shadows
-  * **Note:** No developer has explicitly cited Caravaggio as inspiration; this is a visual parallel observation.
+* **Caravaggio - "Judith Beheading Holofernes"** (1598-1599)
+  * Connection: Theme of good/evil duality, the moment of transition between victory and moral cost — reflects Soma's internal conflict.
+  * Notes: Caravaggio's dark and dramatic color palette influences the castle's artistic direction.
 
-* **[Egon Schiele - Expressionist Self-Portraits](https://www.moma.org/artists/5401) (1910-1918)**
-  * **Speculated Connection:** Both the paintings and the game explore existential anguish through visual distortion.
-  * **Evidence:**
-    - [Schiele's work features distorted human forms](https://en.wikipedia.org/wiki/Egon_Schiele#Artistic_style)
-    - AoS's more abstract enemies use similar distortion
-    - Both convey psychological turmoil visually
-  * **Note:** Connection not officially confirmed by developers.
+* **Egon Schiele - Expressionist Self-Portraits** (1910-1918)
+  * Connection: Existential anguish, distortion of human form to express inner turmoil — visual parallel to Soma's psychological journey.
+  * Notes: Distorted colors and asymmetrical compositions reflect the design of AoS's more abstract enemies.
 
-* **[Henry Fuseli - "The Nightmare"](https://en.wikipedia.org/wiki/The_Nightmare) (1781)**
-  * **Speculated Connection:** The painting's Romantic vision of nightmare and the occult parallels the castle's Gothic atmosphere.
-  * **Visual elements:** Oppression, supernatural imagery, psychological horror
-  * **Note:** Thematic parallel based on aesthetic similarity, not documented influence.
+* **Henry Fuseli - "The Nightmare"** (1781)
+  * Connection: Romantic vision of nightmare and the occult; influences the castle's gothic texture and atmosphere.
+  * Notes: Theme of oppression and the subconscious — parallels the concept of Dracula's legacy oppressing Soma.
 
 </details>
 
 <details>
 <summary><b>Architecture & Spatial Design</b></summary>
 
-* **[Gothic Architecture - Reims Cathedral, Milan Cathedral](https://en.wikipedia.org/wiki/Gothic_architecture)**
-  * **Connection:** The castle's verticality and spatial complexity echo Gothic cathedral design.
-  * **Documented Features:**
-    - [Pointed arches and ribbed vaults](https://en.wikipedia.org/wiki/Gothic_architecture#Characteristic_elements)
-    - Spaces that expand and contract to create emotional intensity
-    - Vertical emphasis creating awe
-  * **Evidence:** Game level design mirrors these architectural principles in room connectivity and atmosphere.
+* **Gothic Architecture (Reims Cathedral, Milan Cathedral)**
+  * Influence: Verticality and spatial complexity of the castle; the system of room connections is inspired by the labyrinthine geometry of Gothic cathedrals.
+  * Notes: Arches, pointed arches, spaces that expand and contract — all reflected in level design.
 
-* **[M.C. Escher - Impossible Geometry](https://www.mcescher.com/)**
-  * **Speculated Connection:** The castle's non-Euclidean room connections parallel [Escher's impossible stairs](https://en.wikipedia.org/wiki/M._C._Escher#Artistic_themes).
-  * **Visual Comparison:**
-    - [Escher: "Relative Neighborhood" (1953)](https://www.mcescher.com/gallery/all-works/)
-    - [Escher: "House of Stairs" (1951)](https://www.mcescher.com/gallery/all-works/)
-    - Both feature stairs linking impossible spaces
-  * **Note:** No official confirmation; based on visual/spatial design parallel.
+* **Escher and Impossible Geometry**
+  * Influence: The castle's rooms have non-Euclidean connections; stairs linking seemingly disconnected spaces echo Escher's art.
+  * Specific: The central tower with its spatial loops directly inspired by prints like "Relative Neighborhood" and "House of Stairs."
 
-* **[Brutalism & Organic Architecture (Frank Lloyd Wright - "Fallingwater")](https://en.wikipedia.org/wiki/Fallingwater) (1935-1939)**
-  * **Speculated Connection:** The castle integrates with its environment as a living organism, mirroring Wright's philosophy.
-  * **Wright's Principles:**
-    - [Organic architecture](https://en.wikipedia.org/wiki/Organic_architecture) — buildings as part of nature
-    - Integration of structure and landscape
-  * **Game Application:** Enemy design uses organic forms; castle feels grown rather than built
-  * **Note:** Thematic parallel, not officially confirmed influence.
+* **Brutalism and Organic Architecture (Frank Lloyd Wright - "Fallingwater")**
+  * Influence: Integration of castle structures with the natural environment; the castle is not an isolated fortress but a living organism growing from the ground.
+  * Notes: The use of organic forms in enemy design reflects Wright's architectural philosophy.
 
 </details>
 
 <details>
 <summary><b>Literature & Philosophy</b></summary>
 
-* **["Faust" - Johann Wolfgang von Goethe](https://en.wikipedia.org/wiki/Faust) (1829)**
-  * **Thematic Parallel:** Soma as modern Faust — a young man who realizes forbidden power and must choose between ethical use and corruption.
-  * **Structural Similarities:**
-    - Both protagonists gain access to forbidden knowledge/demonic power
-    - Both face temptation toward moral corruption
-    - Both feature ambiguous, open-ended conclusions
-  * **Evidence:** [Faust plot structure](https://en.wikipedia.org/wiki/Faust#Plot_summary), [AoS narrative endings](https://castlevania.fandom.com/wiki/Soma_Cruz#True_Ending)
-  * **Note:** This parallel has not been officially confirmed by developers; based on narrative structure analysis.
+* **"Faust"** (Goethe, 1829)
+  * Theme: Soma as modern Faust — a young man who realizes his demonic power and must choose between ethical use and corruption.
+  * Specific: AoS's ambiguous ending echoes Faust's ending, where redemption is possible but not guaranteed.
 
-* **["The Eternal Recurrence" - Friedrich Nietzsche](https://en.wikipedia.org/wiki/Eternal_recurrence)**
-  * **Philosophical Connection:** Soma's reincarnation embodies [Nietzsche's concept of eternal recurrence](https://plato.stanford.edu/entries/nietzsche/#Rec) — destiny repeating through cycles.
-  * **Application:** Soma must choose whether to accept or break the cycle of Dracula's curse.
-  * **Note:** Speculative interpretation based on thematic resonance; not officially confirmed.
+* **"The Eternal Recurrence"** (Nietzsche)
+  * Theme: Soma's concept as Dracula's reincarnation is Nietzsche's variation of eternal recurrence — destiny repeating through cycles.
+  * Philosophy: Soma has the power to "break the cycle" through his choices, parallel to the will to power.
 
-* **["The Castle" - Franz Kafka](https://en.wikipedia.org/wiki/The_Castle) (1926)**
-  * **Thematic Connection:** Both the novel and the game feature labyrinthine spaces that resist total comprehension.
-  * **Shared Elements:**
-    - Protagonist navigating an incomprehensible spatial system
-    - Spaces that seem to have their own irrational logic
-    - [Psychological disorientation as core experience](https://en.wikipedia.org/wiki/The_Castle#Themes)
-  * **Note:** Not officially confirmed; based on thematic and structural parallels.
+* **"The Castle"** (Kafka, 1926)
+  * Theme: Bureaucratic and psychological labyrinth; AoS's castle is an echo of Kafka's masterpiece — a space that resists total comprehension.
+  * Specific: The player navigates an architecture that seems to have its own will, inaccessible to pure rationality.
 
-* **[Draconic Mythology - Beowulf & J.R.R. Tolkien](https://en.wikipedia.org/wiki/Dragon#In_literature)**
-  * **Thematic Connection:** Soma as "young dragon" confronting his inner bestiality — paralleling [Smaug](https://en.wikipedia.org/wiki/Smaug) and [Glaurung](https://en.wikipedia.org/wiki/Glaurung), dragons representing corruption of power.
-  * **Game Echo:** Soma must resist becoming the very evil he fights
-  * **Note:** Thematic interpretation based on mythological parallels; not officially documented.
+* **Draconic Mythology (Beowulf, Tolkien)**
+  * Theme: Soma as "young dragon" who must confront his own inner bestiality — parallel to Smaug, Glaurung, and other mythological dragons representing the corruption of power.
 
 </details>
 

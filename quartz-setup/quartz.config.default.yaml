@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: null
   locale: en-US
-  baseUrl: localhost
+  baseUrl: Verbari93.github.io/video-game-culture
   ignorePatterns:
     - private
     - templates
